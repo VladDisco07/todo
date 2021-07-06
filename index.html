@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lista To-Do
+        </title>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+
+    <body>
+        <div id = "main">
+            <h1 id="titlu">
+                Lista To-Do
+            </h1>
+            <br>
+            <div id = "input">
+                <input type="text" placeholder="Scrie actiunea aici" id = "casuta">
+                <button onclick="butonClick()">
+                    Adauga
+                </button>
+                <button onclick="inchidereTodo()">
+                    Sterge lista
+                </button>
+            </div>
+            <div id = "continut">
+                <ul id = "lista">
+                    
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

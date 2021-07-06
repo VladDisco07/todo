@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+#main {
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+}
+
+#titlu {
+    text-align: center;
+}
+
+#input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#continut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
